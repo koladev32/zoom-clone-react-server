@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import {Button, Container, NavDropdown, Navbar, Nav, Form, NavLink} from 'react-bootstrap'
+import './App.css';
 
 function App() {
 return (
@@ -18,7 +18,7 @@ return (
             <NavDropdown.Item className="text-primary" href="#action/3.3">Something</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link className="text-primary" href="#features">SIGN IN</Nav.Link>
-          <Nav.Link className="btn btn-warning text-white" href="#features">SIGN UP, IT'S FREE</Nav.Link>
+          <Nav.Link className="btn btn-warning text-white sign-up" href="#features">SIGN UP, IT'S FREE</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
@@ -27,14 +27,14 @@ return (
   <div className="container">
     <div>
       <h3 className="text-center">Join meeting</h3>
-      <Form className="col-9 mx-auto">
+      <Form className="col-md-4 col-sm-8 mx-auto">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label className="text-start fs-6 text-muted">Meeting ID</Form.Label>
+          <Form.Label className="text-muted">Meeting ID</Form.Label>
           <Form.Control type="text" placeholder="Enter meeting ID" />
         </Form.Group>
 
         <Form.Group className="mb-3">
-          <Form.Label className="fs-6">By clicking "Join", you agree to our <a href="#">Terms of Services</a> and <a href="">Privacy Statement</a></Form.Label>
+          <Form.Label>By clicking "Join", you agree to our <a href="#">Terms of Services</a> and <a href="">Privacy Statement</a></Form.Label>
         </Form.Group>
         <Button className="w-100 rounded-3" type="submit">Join</Button>
       </Form>
