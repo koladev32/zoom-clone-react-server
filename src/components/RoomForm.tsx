@@ -1,7 +1,6 @@
 import React from "react";
 import {Button, Form} from "react-bootstrap";
 
-
 function RoomForm() {
   return (
     <div>
@@ -17,10 +16,15 @@ function RoomForm() {
         </Form.Group>
 
         <Form.Group className="mb-3">
-          <Form.Label>By clicking "Join", you agree to our <a href="#">Terms of Services</a> and <a href="">Privacy
-            Statement</a></Form.Label>
+          <Form.Label>
+            By clicking "Join", you agree to our{" "}
+            <a href="#">Terms of Services</a> and{" "}
+            <a href="">Privacy Statement</a>
+          </Form.Label>
         </Form.Group>
-        <Button className="w-100 rounded-3" type="submit">Join</Button>
+        <Button className="w-100 rounded-3" type="submit">
+          Join
+        </Button>
       </Form>
     </div>
   );
