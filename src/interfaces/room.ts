@@ -1,5 +1,5 @@
 export interface RoomResponse {
-  public_id: string;
+  id: string;
   name: string;
   status: string;
   created: Date;
