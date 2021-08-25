@@ -15,7 +15,7 @@ function CustomNavbar () {
                             <Link to="/">JOIN A MEETING</Link>
                         </Nav.Link>
                         <Nav.Link className="text-primary" href="#features">
-                            <Link to="/request/">HOST A MEETING</Link>
+                            <Link to="/host">HOST A MEETING</Link>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
